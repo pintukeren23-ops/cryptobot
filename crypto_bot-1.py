@@ -5,8 +5,8 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes, MessageHandler, filters
 from groq import Groq
 
-TOKEN = os.environ.get("TOKEN")
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+TOKEN = os.environ.get("8235001475:AAHcfZmSleGDXtTTj37tSSxZd9zI_F91mUY")
+GROQ_API_KEY = os.environ.get("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")
 
 groq_client = Groq(api_key=GROQ_API_KEY)
 
